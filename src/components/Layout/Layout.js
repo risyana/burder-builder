@@ -1,10 +1,11 @@
 import React from 'react'
 import Aux from '../../hoc/VirtualComponent'
 import css from './Layout.css'
+import Toolbar from '../Burger/Navigation/Toolbar/Toolbar'
 
 const layout = (props) => (
     <Aux>
-        <div>toolbar, side drawer,backgdop</div>
+        <Toolbar />
         <main className={css.Content}>
             {props.children}
         </main>

@@ -87,7 +87,6 @@ class BurgerBuilder extends React.Component {
                         ingredients = {this.state.ingredients}
                         totalPrice = {this.state.totalPrice} />
                 </Modal>
-                <h1>Burger Builder </h1>
                 <Burger ingredients = {this.state.ingredients}/>
                 <BuildControls 
                     onClickMore = {this.addIngredientHandler}
