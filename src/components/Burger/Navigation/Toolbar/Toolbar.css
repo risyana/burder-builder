@@ -15,5 +15,22 @@
 
 .Toolbar nav {
     height: 100%;
+}
 
+.Logo {
+    height: 80%;
+}
+
+/* on mobile hide the nav*/
+@media (max-width : 499px){
+    .DesktopOnly {
+        display: none; 
+    }
+}
+
+/* on desktop hide the toogle button*/
+@media (min-width : 500px){
+    .MobileOnly {
+        display: none; 
+    }
 }
