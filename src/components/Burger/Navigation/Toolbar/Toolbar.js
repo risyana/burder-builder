@@ -2,11 +2,12 @@ import React from 'react';
 import css from './Toolbar.css'
 import Logo from '../../Logo/Logo'
 import NavigationItems from '../NavigationItems/NavigationItems'
+import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
 
 const Toolbar = (props) => {
     return (
         <header className = {css.Toolbar}>
-            <div className={css.MobileOnly} onClick = {props.click} >MENU</div>
+            <DrawerToggle click={props.click}/>
             <div className = {css.Logo}>
                 <Logo />
             </div>

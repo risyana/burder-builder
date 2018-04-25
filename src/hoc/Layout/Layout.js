@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Aux from '../../hoc/VirtualComponent'
-import css from './Layout.css'
-import Toolbar from '../Burger/Navigation/Toolbar/Toolbar'
+import Aux from '../VirtualComponent/VirtualComponent'
+import Toolbar from '../../components/Burger/Navigation/Toolbar/Toolbar'
 import SideDrawer from '../../components/Burger/Navigation/SideDrawer/SideDrawer'
-import Backdrop from '../UI/Backdrop/Backdrop'
+import Backdrop from '../../components/UI/Backdrop/Backdrop'
+import css from './Layout.css'
 
 class Layout extends Component {
 
